@@ -1,0 +1,13 @@
+---
+section: use
+title: Utiliza el almacenamiento en caché de volúmenes de BlueXP
+entries:
+- title: Utiliza la información general sobre el almacenamiento de volúmenes en caché
+    de BlueXP
+  url: "/use/cache-use-overview.html"
+- title: Cree una caché
+  url: "/use/cache-create.html"
+- title: Gestionar una caché
+  url: "/use/cache-manage.html"
+- title: Supervise los trabajos de almacenamiento en caché de volúmenes
+  url: "/use/monitor-jobs.html"

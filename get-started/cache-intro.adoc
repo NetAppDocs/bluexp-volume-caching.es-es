@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-intro.html 
+keywords: how bluexp volume caching works, what is volume caching, bluexp 
+summary: El almacenamiento en caché de volúmenes proporciona un volumen persistente y editable en un lugar remoto. Puede usar el almacenamiento en caché de volúmenes de BlueXP para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con un acceso frecuente. Los volúmenes de caché son ideales para las cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos de manera repetida. 
+---
+= Obtén más información sobre el almacenamiento en caché de volúmenes de BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El almacenamiento en caché de volúmenes, una función del software ONTAP 9, es una funcionalidad de almacenamiento en caché remoto que simplifica la distribución de archivos, reduce la latencia WAN al acercar los recursos a dónde están los usuarios y los recursos informáticos y reduce los costes de ancho de banda WAN. El almacenamiento en caché de volúmenes proporciona un volumen persistente y editable en un lugar remoto. Puede usar el almacenamiento en caché de volúmenes de BlueXP para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con un acceso frecuente. Los volúmenes de caché son ideales para las cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos de manera repetida.
+
+Con el almacenamiento en caché de volúmenes de BlueXP, dispones de capacidades de almacenamiento en caché para la nube, específicamente para Amazon FSx para NetApp ONTAP, Cloud Volumes ONTAP y on-premises como entornos de trabajo.
+
+El servicio también proporciona acceso de las sucursales a conjuntos de datos corporativos. Al suministrar _datos activos_, los datos a los que se debe acceder con frecuencia desde varias controladoras de un clúster, puede aumentar el rendimiento proporcionado a aplicaciones clave. Además, al almacenar en caché los datos activos locales en usuarios de diferentes ubicaciones de todo el mundo, puede mejorar su colaboración al permitir un acceso simultáneo a los conjuntos de datos centralizados a la vez que se reduce el tiempo de respuesta que reciben al acceder a los datos activos.
+
+El almacenamiento en caché de volúmenes de BlueXP se pone en marcha en un bloque de Amazon S3, servido por AWS CloudFront.
+
+
+
+== ¿Qué es una caché?
+
+Una caché es una ubicación de almacenamiento temporal que reside entre un host y el origen de los datos. El objetivo de una caché es almacenar porciones de los datos de origen a las que se accede con frecuencia de manera que los datos se sirvan más rápido de lo que sería mediante la captura de los datos de la fuente. Las cachés son más útiles en entornos con numerosas lecturas en los que se accede a los datos más de una vez y varios hosts los comparten. Un sistema de caché es más rápido que el sistema con un origen de datos, que se obtiene a través de un sistema de almacenamiento más rápido y la proximidad del espacio de almacenamiento caché al host.
+
+
+
+== Ventajas de usar el almacenamiento en caché de volúmenes de BlueXP
+
+El almacenamiento en caché de volúmenes de BlueXP ofrece las siguientes ventajas:
+
+* Acelere el rendimiento en una infraestructura de cloud híbrido
+* Elimine silos de cloud almacenando los datos en caché de un proveedor de cloud a otro
+* Menor gasto en almacenamiento
+* Colabore en distintas ubicaciones geográficas
+* Uso de un servicio gestionado por NetApp en BlueXP
+* Capacidad de adaptarse con mayor rapidez a los entornos TECNOLÓGICOS cambiantes
+* Almacenamiento en caché de volúmenes bajo demanda o basado en suscripciones alojado en la nube
+
+
+
+
+== Tareas que puedes hacer con el almacenamiento en caché de volúmenes de BlueXP
+
+El almacenamiento en caché de volúmenes de BlueXP te ofrece un uso completo de varias tecnologías de NetApp para lograr los siguientes objetivos:
+
+El servicio de almacenamiento en caché de volúmenes de BlueXP te ofrece un uso completo de diversas tecnologías de NetApp para lograr los siguientes objetivos:
+
+* Almacene en caché los datos de un proveedor de cloud a otro
+* Ver y editar una política de exportación de caché
+* Cambiar el tamaño de una caché existente
+* Suprimir una caché
+
+
+
+
+== Coste
+
+NetApp no te cobra por usar el servicio de almacenamiento en caché de volúmenes de BlueXP, pero deberás comprobar a tu proveedor de nube cuáles son los cargos por ingreso y salida de datos aplicables.
+
+
+
+== Licencia
+
+No se necesitan licencias especiales de ONTAP para el almacenamiento en caché de volúmenes de BlueXP.
+
+
+
+== Funcionamiento del almacenamiento en caché de volúmenes de BlueXP
+
+Un volumen de caché es un volumen con contenido escaso que cuenta con el respaldo de un volumen de origen. El volumen de caché puede estar en el mismo clúster que en un clúster diferente al del volumen de origen.
+
+El volumen de caché proporciona acceso a los datos del volumen de origen sin necesidad de que todos los datos estén en el volumen de caché. El almacenamiento de datos en el volumen de almacenamiento en caché se gestiona de manera eficiente mediante la retención solo de los datos activos (datos en funcionamiento o utilizados recientemente).
+
+El almacenamiento en caché de volúmenes de BlueXP lee las solicitudes si el volumen de caché contiene los datos solicitados por el cliente. De lo contrario, el servicio de almacenamiento en caché del volumen solicita los datos del volumen de origen y almacena los datos antes de servir la solicitud del cliente. Las solicitudes posteriores para los datos se sirven directamente desde el volumen de caché. Esto mejora el rendimiento cuando se accede a los mismos datos repetidamente, porque tras la primera solicitud, los datos ya no deben viajar por la red ni servirse desde un sistema sobrecargado.

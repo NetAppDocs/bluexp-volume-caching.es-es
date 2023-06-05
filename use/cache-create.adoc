@@ -1,0 +1,114 @@
+---
+sidebar: sidebar 
+permalink: use/cache-create.html 
+keywords: volume caching, bluexp volume caching 
+summary: El almacenamiento en caché de volúmenes proporciona un volumen persistente y editable en un lugar remoto. Puede usar el almacenamiento en caché de volúmenes de BlueXP para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con un acceso frecuente. Los volúmenes de caché son ideales para las cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos de manera repetida. 
+---
+= Cree una caché
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puedes crear un almacenamiento en caché de volúmenes entre Amazon FSx para ONTAP, Cloud Volumes ONTAP y ONTAP on-premises con uno o varios volúmenes de origen del entorno de trabajo de origen como origen de caché. A continuación, se selecciona la máquina virtual de almacenamiento para los volúmenes de caché.
+
+El volumen de caché puede estar en el mismo clúster o en un clúster diferente al del volumen de origen. Los volúmenes que seleccione para caché deben pertenecer a la misma máquina virtual de almacenamiento y las máquinas virtuales de almacenamiento deben usar los mismos protocolos.
+
+
+TIP: Si los volúmenes no son elegibles para el almacenamiento en caché, aparecen atenuados por lo que no pueda seleccionarlos.
+
+Es posible introducir el tamaño de los volúmenes de caché como un porcentaje del tamaño del volumen de origen.
+
+
+NOTE: El espacio IP utilizado por el volumen de caché depende del espacio IP que utiliza la máquina virtual de almacenamiento de origen.
+
+El nombre del volumen de caché utiliza un sufijo de `pass:macros[_cache]` se añadió al nombre del volumen original.
+
+
+
+== Pasos de la página de destino de almacenamiento en caché de volúmenes de BlueXP
+
+. Inicia sesión en BlueXP y selecciona *Mobility* > *Volume caching* desde la navegación de la izquierda.
++
+Llegarás a la página del Panel de control de almacenamiento en caché de volúmenes de BlueXP. Cuando comience por primera vez con el servicio, debe agregar la información de la caché. Más tarde, aparece el Panel de Control y muestra datos sobre las cachés.
+
++
+
+NOTE: Si aún no has configurado un conector BlueXP, aparece la opción *Añadir un conector* en lugar de *Añadir una caché*. En este caso, debe configurar primero el conector. Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de BlueXP"^].
+
++
+image:landing-page.png["la página de destino del almacenamiento de volúmenes en caché"]
+
+. Seleccione *Añadir caché*.
+. En la página Datos de caché, seleccione el origen del entorno de trabajo y la caché de destino y seleccione *Iniciar asistente de almacenamiento en caché*.
+. En la página Configure your Cache, seleccione el o los volúmenes que desea almacenar en caché.
++
+
+NOTE: Puede seleccionar hasta 50 volúmenes.
+
+. Desplácese hacia abajo en la página para realizar cambios adicionales en los detalles de la máquina virtual o el tamaño del volumen.
+. Introduzca el tamaño de los volúmenes de caché como un porcentaje del tamaño del volumen de origen.
++
+
+TIP: Una buena regla general es que el tamaño del volumen de caché debe ser aproximadamente el 15 % del tamaño del volumen de origen.
+
+. Marque la casilla *Acceso a caché* para replicar las reglas de política de exportación NFS y la configuración de recursos compartidos SMB/CIFS desde el volumen de origen hasta el volumen de caché de destino.
++
+A continuación, las reglas de la política de exportación de NFS y el recurso compartido de SMB/CIFS en el volumen de origen se replicarán en el volumen de caché. Si el protocolo SMB/CIFS no está habilitado en la máquina virtual de almacenamiento de la caché, el recurso compartido SMB/CIFS no se replicará.
+
+. Si lo desea, introduzca el prefijo del nombre de la caché.
+
+
+El sufijo de `pass:macros[_cache]` se anexa al nombre en el formato: `<user-specified prefix>_<source volume name>_cache`
+
+. Selecciona *Crear cachés*.
++
+La nueva caché aparece en la lista Caché. Se mostrará el nombre del volumen de caché `pass:macros[_cache]` como sufijo del nombre del volumen de origen.
+
+. Para ver el progreso de la operación, en el menú superior, seleccione image:settings-icon.png["icono de ajustes"] > *Línea de tiempo*.
+
+
+
+
+== Pasos del lienzo de BlueXP
+
+. En el lienzo de BlueXP, selecciona el entorno de trabajo.
+. Seleccione el entorno de origen y arrástrelo al destino.
+image:drag-n-drop.png["función de arrastrar y soltar para crear caché"]
+. Seleccione el servicio *Volume caching*.
++
+Esto crea un volumen de caché del origen al destino.
+
+. En el panel derecho, en el cuadro Servicio de almacenamiento en caché, seleccione *Agregar*.
+. En la página Datos de caché, seleccione el entorno de trabajo que desea almacenar en caché y seleccione *Iniciar asistente de caché*.
+image:cache-data.png["ventana emergente de datos de caché"]
+. En la página Configure your Cache, seleccione el o los volúmenes que desea almacenar en caché.
++
+
+NOTE: Puede seleccionar hasta 50 volúmenes.
+
+. Desplácese hacia abajo en la página para realizar cambios adicionales en los detalles de la máquina virtual o el tamaño del volumen.
+. Introduzca el tamaño de los volúmenes de caché como un porcentaje del tamaño del volumen de origen.
++
+
+TIP: Una buena regla general es que el tamaño del volumen de caché debe ser aproximadamente el 15 % del tamaño del volumen de origen.
+
++
+image:create-cache.png["ventana para agregar caché"]
+
+. Marque la casilla *Acceso a caché* para replicar las reglas de política de exportación NFS y la configuración de recursos compartidos SMB/CIFS desde el volumen de origen hasta el volumen de caché de destino.
++
+A continuación, las reglas de la política de exportación de NFS y el recurso compartido de SMB/CIFS en el volumen de origen se replicarán en el volumen de caché. Si el protocolo SMB/CIFS no está habilitado en la máquina virtual de almacenamiento de la caché, el recurso compartido SMB/CIFS no se replicará.
+
+. Si lo desea, introduzca el prefijo del nombre de la caché.
++
+El sufijo de `pass:macros[_cache]` se anexa al nombre en el formato: `<user-specified prefix>_<source volume name>_cache`
+
+. Selecciona *Crear cachés*.
++
+La nueva caché aparece en la lista Caché. Se mostrará el nombre del volumen de caché `pass:macros[_cache]` como sufijo del nombre del volumen de origen.
+
+. Para ver el progreso de la operación, en el menú superior, seleccione image:settings-icon.png["icono de ajustes"] > *Línea de tiempo*.
+

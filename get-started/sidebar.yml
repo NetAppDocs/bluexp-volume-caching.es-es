@@ -1,0 +1,16 @@
+---
+section: get-started
+title: Manos a la obra
+entries:
+- title: Obtén más información sobre el almacenamiento en caché de volúmenes de BlueXP
+  url: "/get-started/cache-intro.html"
+- title: Requisitos previos
+  url: "/get-started/cache-prerequisites.html"
+- title: Inicio rápido
+  url: "/get-started/cache-quick-start.html"
+- title: Configura el almacenamiento en caché de volúmenes de BlueXP
+  url: "/get-started/cache-setup.html"
+- title: Accede al almacenamiento de volúmenes en caché de BlueXP
+  url: "/get-started/cache-login.html"
+- title: PREGUNTAS FRECUENTES
+  url: "/get-started/cache-faq.html"

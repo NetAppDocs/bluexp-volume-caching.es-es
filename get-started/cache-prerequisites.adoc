@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-prerequisites.html 
+keywords: what are bluexp volume caching requirements, volume caching prerequisites 
+summary: Para empezar a usar el almacenamiento en caché de volúmenes de BlueXP, verifica la compatibilidad de tu entorno, el acceso a la red, el inicio de sesión y el navegador web. 
+---
+= Requisitos previos de almacenamiento en caché de volúmenes de BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Comience verificando la preparación de su entorno operativo, el inicio de sesión, el acceso a la red y el navegador web.
+
+Para utilizar el almacenamiento en caché de volúmenes de BlueXP, debes asegurarte de que tu entorno cumpla todos los requisitos.
+
+* ONTAP 9,8 y versiones posteriores
++
+** Permisos de la ONTAP del administrador de clústeres
+** LIF de interconexión de clústeres en los clústeres
+
+
+* En BlueXP:
++
+** Es necesario configurar el conector BlueXP en NetApp BlueXP. Todos los clústeres de origen y destino deben estar en el mismo BlueXP Connector. Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de BlueXP"^] y.. https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Más información sobre conectores"^].
+** Se debe configurar el entorno de trabajo.
+** Los clústeres deben agregarse al entorno de trabajo de destino y en estado ACTIVADO o Degradado.
+** Requisitos estándar de BlueXP. Consulte https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos de BlueXP"].
+
+
+

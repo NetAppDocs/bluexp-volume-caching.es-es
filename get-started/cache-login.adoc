@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-login.html 
+keywords: bluexp login, volume caching log in 
+summary: Empieza a usar el almacenamiento en caché de volúmenes de BlueXP, accediendo al servicio en BlueXP. 
+---
+= Accede al almacenamiento de volúmenes en caché de BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Utilizarás NetApp BlueXP para iniciar sesión en el servicio de almacenamiento en caché de volúmenes de BlueXP.
+
+Para iniciar sesión en BlueXP, puede utilizar sus credenciales del sitio de soporte de NetApp o puede registrarse para iniciar sesión en cloud de NetApp con su correo electrónico y una contraseña. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Obtenga más información sobre cómo iniciar sesión"^].
+
+.Pasos
+. Abra un explorador web y vaya al https://console.bluexp.netapp.com/["Consola BlueXP"^].
++
+Aparece la página de inicio de sesión de NetApp BlueXP.
+
+. Inicie sesión en BlueXP.
+. En la navegación de la izquierda de BlueXP, selecciona *Mobility* > *Volume caching*.
++
+Aparece la consola de almacenamiento en caché de volúmenes de BlueXP.
+image:landing-page.png["imagen de la página de destino de almacenamiento en caché de volúmenes"]
+
++
+
+NOTE: Si no se configura un conector BlueXP, aparece la opción *Agregar un conector*. Consulte link:../get-started/cache-setup.html["Configura el almacenamiento en caché de volúmenes de BlueXP"].
+
+
