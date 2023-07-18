@@ -59,8 +59,7 @@ TIP: Una buena regla general es que el tamaño del volumen de caché debe ser ap
 A continuación, las reglas de la política de exportación de NFS y el recurso compartido de SMB/CIFS en el volumen de origen se replicarán en el volumen de caché. Si el protocolo SMB/CIFS no está habilitado en la máquina virtual de almacenamiento de la caché, el recurso compartido SMB/CIFS no se replicará.
 
 . Si lo desea, introduzca el prefijo del nombre de la caché.
-
-
++
 El sufijo de `pass:macros[_cache]` se anexa al nombre en el formato: `<user-specified prefix>_<source volume name>_cache`
 
 . Selecciona *Crear cachés*.

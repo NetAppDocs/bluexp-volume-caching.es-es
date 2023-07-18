@@ -16,18 +16,18 @@ A continuación encontrarás una descripción general de los pasos necesarios pa
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Revise los requisitos previos
 [role="quick-margin-para"]
-link:../get-started/cache-prerequisites.html["Asegúrese de que su entorno cumpla estos requisitos"^].
+link:../get-started/cache-prerequisites.html["Asegúrese de que su entorno cumpla estos requisitos"].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"] Configure el servicio de almacenamiento en caché de volúmenes
 [role="quick-margin-para"]
-link:../get-started/cache-setup.html["Configura el almacenamiento en caché de volúmenes de BlueXP"^].
+link:../get-started/cache-setup.html["Configura el almacenamiento en caché de volúmenes de BlueXP"].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tres"] El futuro
 [role="quick-margin-para"]
 Después de configurar el servicio, esto es lo que puede hacer a continuación.
 
 [role="quick-margin-list"]
-* link:../use/cache-create.html["Cree una caché"^].
-* link:../use/cache-use-overview.html["Gestione una caché, incluido el cambio de tamaño de un volumen de caché"^].
-* link:../use/monitor-jobs.html["Supervise las operaciones de almacenamiento en caché de volúmenes"^].
+* link:../use/cache-create.html["Cree una caché"].
+* link:../use/cache-use-overview.html["Gestionar una caché, editar una caché, cambiar el tamaño de una caché o suprimir una caché"].
+* link:../use/monitor-jobs.html["Supervise las operaciones de almacenamiento en caché de volúmenes"].
 

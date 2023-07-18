@@ -27,7 +27,7 @@ Con el almacenamiento en caché de volúmenes de BlueXP, puedes lograr estos obj
 
 == Ver detalles de caché
 
-En cada almacenamiento en caché de volúmenes, puede ver el volumen original, el entorno de trabajo, el volumen de caché, y más.
+Para cada almacenamiento en caché, puede ver el volumen original, el entorno de trabajo, el volumen de la caché, y más.
 
 .Pasos
 . En la navegación de la izquierda de BlueXP, selecciona *Mobility* > *Volume caching*.
@@ -42,7 +42,7 @@ Es posible ver la lista de volúmenes de caché creados en el entorno de destino
 
 
 
-== Editar una caché de volumen
+== Editar una caché
 
 Es posible cambiar el nombre, el tamaño del volumen y la política de exportación de una caché.
 
@@ -82,7 +82,7 @@ TIP: Puede asignar una política de exportación existente a una caché. No se p
 
 
 
-== Cambie el tamaño del almacenamiento en caché de volúmenes
+== Cambiar el tamaño de una caché
 
 Es posible cambiar el tamaño del volumen de caché según un porcentaje del volumen de origen.
 
@@ -99,7 +99,7 @@ El tamaño del volumen de caché cambiará al nuevo porcentaje.
 
 
 
-== Elimine una caché de volumen
+== Suprimir una caché
 
 Si ya no se necesita la caché, es posible eliminarla. Esto elimina la relación de almacenamiento en caché del volumen y elimina la caché de volumen de destino.
 

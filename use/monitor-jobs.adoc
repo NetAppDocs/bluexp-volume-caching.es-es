@@ -16,8 +16,7 @@ Es posible supervisar todos los trabajos de almacenamiento en caché de los vol�
 
 .Pasos
 . En el menú superior, seleccione image:settings-icon.png["Icono de configuración en la interfaz de usuario"] > *Línea de tiempo*.
-
-
++
 image:timeline.png["pantalla de línea de tiempo"]
 
 . Opcionalmente, filtrar por hora, servicio, acción, agente, recurso, usuario o estado.

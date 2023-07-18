@@ -27,7 +27,7 @@ Para utilizar el almacenamiento en caché de volúmenes de BlueXP, debes asegura
 ** Es necesario configurar el conector BlueXP en NetApp BlueXP. Todos los clústeres de origen y destino deben estar en el mismo BlueXP Connector. Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de BlueXP"^] y.. https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Más información sobre conectores"^].
 ** Se debe configurar el entorno de trabajo.
 ** Los clústeres deben agregarse al entorno de trabajo de destino y en estado ACTIVADO o Degradado.
-** Requisitos estándar de BlueXP. Consulte https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos de BlueXP"].
+** Requisitos estándar de BlueXP. Consulte https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos de BlueXP"^].
 
 
 
