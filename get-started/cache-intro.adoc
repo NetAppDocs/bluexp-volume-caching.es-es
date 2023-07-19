@@ -18,8 +18,6 @@ Con el almacenamiento en caché de volúmenes de BlueXP, dispones de capacidades
 
 El servicio también proporciona acceso de las sucursales a conjuntos de datos corporativos. Al suministrar _datos activos_, los datos a los que se debe acceder con frecuencia desde varias controladoras de un clúster, puede aumentar el rendimiento proporcionado a aplicaciones clave. Además, al almacenar en caché los datos activos locales en usuarios de diferentes ubicaciones de todo el mundo, puede mejorar su colaboración al permitir un acceso simultáneo a los conjuntos de datos centralizados a la vez que se reduce el tiempo de respuesta que reciben al acceder a los datos activos.
 
-El almacenamiento en caché de volúmenes de BlueXP se pone en marcha en un bloque de Amazon S3, servido por AWS CloudFront.
-
 
 
 == ¿Qué es una caché?
