@@ -4,15 +4,11 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legales</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Los avisos legales proporcionan acceso a las declaraciones de copyright, marcas comerciales, patentes y mucho más.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Derechos de autor</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciales</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, el logotipo de NETAPP y las marcas enumeradas en la página de marcas comerciales de NetApp son marcas comerciales de NetApp, Inc. Los demás nombres de empresas y productos son marcas comerciales de sus respectivos propietarios.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Estadounidenses</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Puede encontrar una lista actual de las patentes propiedad de NetApp en:</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidad</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código abierto</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Los archivos de notificación proporcionan información sobre los derechos de autor y las licencias de terceros que se utilizan en software de NetApp.</block>
   <block id="aad34603323b5d4e67ae4a686a15b2e5" category="summary">El almacenamiento en caché de volúmenes proporciona un volumen persistente y editable en un lugar remoto. Puede usar el almacenamiento en caché de volúmenes de BlueXP para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con un acceso frecuente. Los volúmenes de caché son ideales para las cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos de manera repetida.</block>
@@ -121,7 +117,6 @@
   <block id="62f5b0396e259b44122ad3fd5f9581e0" category="inline-link-macro">Obtén más información sobre el almacenamiento en caché de volúmenes de BlueXP</block>
   <block id="2ffe4affb627afa20f3783de7a26c8af" category="paragraph"><block ref="c926d704a05a7f256c6c14f4d9e77466" category="inline-link-macro-rx"></block>.</block>
   <block id="84fa68bdcea2ad5e54b20ac851705b19" category="summary">Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del servicio o cuya interoperabilidad con esta no es óptima.</block>
-  <block id="3eb92669ce6bc59d99566e6b694943ad" category="doc">Limitaciones conocidas</block>
   <block id="b4c367fe6d90350394d4c683b14a2b68" category="section-title">Limitación al copiar reglas de política de exportación de caché</block>
   <block id="dfa00fa3b7488ec5be323d610b3be4c9" category="paragraph">Las reglas de política de exportación de caché no se copian en el volumen de caché en las siguientes situaciones:</block>
   <block id="8bb3858095d86438e2e00fa09184db71" category="list-text">Cuando el entorno de trabajo del volumen de origen es Amazon FSx para NetApp ONTAP o Cloud Volumes ONTAP, y el volumen de caché es ONTAP 9.10.1 o anterior.</block>
@@ -157,10 +152,7 @@
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">Descubre cómo gestionar las credenciales asociadas con tu inicio de sesión de BlueXP</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">Para utilizar la funcionalidad *Crear un caso*, primero debes asociar tus credenciales del sitio de soporte de NetApp con el inicio de sesión de BlueXP.<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>.</block>
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Si abre un caso para un sistema ONTAP que tiene un número de serie, su cuenta de NSS deberá estar asociada con el número de serie de ese sistema.</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">En BlueXP, haga clic en *Ayuda &gt; Soporte*.</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">En la página *Recursos*, elija una de las opciones disponibles en Soporte técnico:</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Haga clic en *Llame a nosotros* si desea hablar con alguien en el teléfono. Se le dirigirá a una página de netapp.com que enumera los números de teléfono a los que puede llamar.</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">Haga clic en *Crear un caso* para abrir una incidencia con un especialista en soporte de NetApp:</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Servicio*: Seleccione el servicio con el que está asociado el problema. Por ejemplo, cuando BlueXP es específico de un problema de soporte técnico con flujos de trabajo o funcionalidades dentro del servicio.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Entorno de trabajo*: Si se aplica al almacenamiento, seleccione *Cloud Volumes ONTAP* o *On-Prem* y, a continuación, el entorno de trabajo asociado.</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">La lista de entornos de trabajo se encuentra dentro del ámbito de la cuenta BlueXP, el área de trabajo y el conector que ha seleccionado en el banner superior del servicio.</block>
@@ -174,7 +166,6 @@
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Después de terminar</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Aparecerá una ventana emergente con el número de caso de soporte. Un especialista de soporte de NetApp revisará su caso y le pondrá en contacto con usted próximamente.</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Para obtener un historial de sus casos de soporte, puede hacer clic en *Configuración &gt; línea de tiempo* y buscar acciones denominadas "Crear caso de soporte". Un botón situado en el extremo derecho le permite ampliar la acción para ver los detalles.</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Es posible que se encuentre el siguiente mensaje de error al intentar crear un caso:</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"No está autorizado a crear un caso en el servicio seleccionado"</block>
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">Este error podría significar que la cuenta NSS y la compañía de registro con la que está asociada no es la misma compañía de registro para el número de serie de la cuenta de BlueXP (es decir, 960xxxx) o el número de serie del entorno de trabajo. Puede solicitar ayuda utilizando una de las siguientes opciones:</block>
@@ -191,10 +182,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Puede agregar o quitar columnas de interés y filtrar el contenido de columnas como prioridad y estado. Otras columnas proporcionan funciones de clasificación.</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Consulte los pasos a continuación para obtener más información.</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">En el nivel por caso, ofrecemos la posibilidad de actualizar las notas de un caso o cerrar un caso que no esté ya en estado cerrado o pendiente de cierre.</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Haga clic en *Administración de casos* y si se le solicita, agregue su cuenta NSS a BlueXP.</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">La página *Administración de casos* muestra casos abiertos relacionados con la cuenta NSS asociada con su cuenta de usuario de BlueXP. Esta es la misma cuenta NSS que aparece en la parte superior de la página *NSS Management*.</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Si lo desea, puede modificar la información que se muestra en la tabla:</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">En *casos de la organización*, haga clic en *Ver* para ver todos los casos asociados con su empresa.</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifique el rango de fechas eligiendo un rango de fechas exacto o eligiendo un marco de tiempo diferente.</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Captura de pantalla de la opción situada encima de la tabla en la página de gestión de casos que permite elegir un intervalo de fechas exacto o los últimos 7 días, 30 días o 3 meses.</block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
@@ -202,14 +191,11 @@
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Captura de pantalla de la opción de filtro de la columna Estado que permite filtrar casos que coinciden con un estado específico, como activo o cerrado.</block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">El icono más que se muestra en la tabla</block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">Cambie las columnas que aparecen en la tabla haciendo clic en <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> y, a continuación, seleccione las columnas que desea mostrar.</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Captura de pantalla que muestra las columnas que puede mostrar en la tabla.</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Icono con tres puntos que aparece en la última columna de la tabla</block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">Gestione un caso existente haciendo clic en <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> y seleccione una de las opciones disponibles:</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Ver caso*: Ver todos los detalles sobre un caso específico.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Actualizar notas de caso*: Proporcione detalles adicionales sobre su problema o seleccione *cargar archivos* para adjuntar hasta un máximo de cinco archivos.</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Cerrar caso*: Proporcione detalles sobre por qué cierra el caso y haga clic en *Cerrar caso*.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Captura de pantalla que muestra las acciones que puede realizar después de seleccionar el menú de la última columna de la tabla.</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="243263104c829e77835d632f591230d5" category="summary">Antes de poder abrir un caso de soporte con el soporte técnico de NetApp, debe añadir una cuenta de la página de soporte de NetApp a BlueXP y, a continuación, registrarse para recibir soporte.</block>
@@ -234,10 +220,7 @@
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">Para registrarte para obtener soporte y activar el soporte, un usuario de tu cuenta de BlueXP debe asociar una cuenta en el sitio de soporte de NetApp a su inicio de sesión en BlueXP. La forma de registrarse para recibir soporte de NetApp depende de si ya tiene una cuenta del sitio de soporte de NetApp (NSS).</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente existente con una cuenta de NSS</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Si es cliente de NetApp con una cuenta de NSS, solo tiene que registrarse para recibir soporte a través de BlueXP.</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">En la parte superior derecha de la consola de BlueXP, haga clic en el icono Configuración y seleccione *credenciales*.</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">Haga clic en *credenciales de usuario*.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Seleccione *Agregar credenciales NSS* y siga el aviso de autenticación del sitio de soporte de NetApp (NSS).</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">Para confirmar que el proceso de registro se ha realizado correctamente, haga clic en el icono Ayuda y seleccione *Soporte*.</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">La página *Recursos* debe mostrar que su cuenta está registrada para soporte.</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">Una captura de pantalla que muestra un número de serie de cuenta y una casilla de verificación verde y el texto registrado para soporte.</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -251,7 +234,6 @@
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">Asocia tu nueva cuenta de NSS con tu inicio de sesión de BlueXP. Para ello, sigue los pasos que se muestran en <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Totalmente nuevo en NetApp</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si es totalmente nuevo en NetApp y no tiene una cuenta de NSS, siga cada paso que se indica a continuación.</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">En la parte superior derecha de la consola de BlueXP, haga clic en el icono Ayuda y seleccione *Soporte*.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Una captura de pantalla del menú Ayuda en el que Soporte es la primera opción de la lista</block>
   <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Busque el número de serie de su ID de cuenta en la página Support Registration.</block>
@@ -278,8 +260,6 @@
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Estas credenciales de NSS están asociadas con tu ID de cuenta de BlueXP específico. Los usuarios que pertenecen a la cuenta BlueXP pueden acceder a estas credenciales desde *Soporte &gt; Gestión NSS*.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si tiene una cuenta de nivel de cliente, puede añadir una o varias cuentas de NSS.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si tiene una cuenta de partner o distribuidor, puede añadir una o varias cuentas de NSS, pero no se podrán añadir junto con las cuentas de nivel de cliente.</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Haga clic en *Administración de NSS &gt; Agregar cuenta de NSS*.</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Cuando se le pregunte, haga clic en *continuar* para que se le redirija a una página de inicio de sesión de Microsoft.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utiliza Microsoft Azure Active Directory como proveedor de identidades para servicios de autenticación específicos para soporte y licencias.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">En la página de inicio de sesión, proporcione su dirección de correo electrónico registrada en el sitio de soporte de NetApp y contraseña para realizar el proceso de autenticación.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Estas acciones permiten a BlueXP utilizar su cuenta NSS para cosas como descargas de licencias, verificación de actualizaciones de software y futuros registros de soporte.</block>
@@ -331,7 +311,6 @@
   <block id="49aaf65c31a811a37b2627a951f6f6d2" category="list-text"><block ref="49aaf65c31a811a37b2627a951f6f6d2" category="inline-link-rx"></block></block>
   <block id="7cf747444a40988d0775d93ccddf4d52" category="doc">Obtén más información sobre el almacenamiento en caché de volúmenes de BlueXP</block>
   <block id="afb247e42d5f607d26c89f94854545e1" category="paragraph">El servicio también proporciona acceso de las sucursales a conjuntos de datos corporativos. Al suministrar _datos activos_, los datos a los que se debe acceder con frecuencia desde varias controladoras de un clúster, puede aumentar el rendimiento proporcionado a aplicaciones clave. Además, al almacenar en caché los datos activos locales en usuarios de diferentes ubicaciones de todo el mundo, puede mejorar su colaboración al permitir un acceso simultáneo a los conjuntos de datos centralizados a la vez que se reduce el tiempo de respuesta que reciben al acceder a los datos activos.</block>
-  <block id="9b2a8e162416ef2bb1886526366993fc" category="paragraph">El almacenamiento en caché de volúmenes de BlueXP se pone en marcha en un bloque de Amazon S3, servido por AWS CloudFront.</block>
   <block id="da693da874d690d16f540e10e65a2321" category="section-title">¿Qué es una caché?</block>
   <block id="a6d4ceba96fb1d711128b98f2e1eaa34" category="paragraph">Una caché es una ubicación de almacenamiento temporal que reside entre un host y el origen de los datos. El objetivo de una caché es almacenar porciones de los datos de origen a las que se accede con frecuencia de manera que los datos se sirvan más rápido de lo que sería mediante la captura de los datos de la fuente. Las cachés son más útiles en entornos con numerosas lecturas en los que se accede a los datos más de una vez y varios hosts los comparten. Un sistema de caché es más rápido que el sistema con un origen de datos, que se obtiene a través de un sistema de almacenamiento más rápido y la proximidad del espacio de almacenamiento caché al host.</block>
   <block id="c29922e0731254bb58386d96d17dddcf" category="section-title">Ventajas de usar el almacenamiento en caché de volúmenes de BlueXP</block>
@@ -416,4 +395,27 @@ El almacenamiento en caché de volúmenes de BlueXP no requiere habilitación al
   <block id="5c69ebc5320400eed666c78803db34a8" category="paragraph">Para cada almacenamiento en caché, puede ver el volumen original, el entorno de trabajo, el volumen de la caché, y más.</block>
   <block id="5b783fc58734a11a740b6e1e60e08d60" category="section-title">Editar una caché</block>
   <block id="3085df87f3cd191beb32cd249232f641" category="section-title">Cambiar el tamaño de una caché</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">En BlueXP, selecciona *Ayuda &gt; Soporte*.</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Selecciona *Llámanos* si quieres hablar con alguien por teléfono. Se le dirigirá a una página de netapp.com que enumera los números de teléfono a los que puede llamar.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Selecciona *Crear un caso* para abrir un ticket con un especialista en Soporte NetApp:</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Para obtener un historial de sus casos de soporte, puede seleccionar *Ajustes &gt; Línea de tiempo* y buscar acciones denominadas “Crear caso de soporte”. Un botón situado en el extremo derecho le permite ampliar la acción para ver los detalles.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Selecciona *Gestión de casos* y, si se te solicita, agrega tu cuenta de NSS a BlueXP.</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">En *Casos de la organización*, selecciona *Ver* para ver todos los casos asociados a tu empresa.</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Seleccione para cambiar las columnas que aparecen en la tabla <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> y, a continuación, seleccione las columnas que desea mostrar.</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">Seleccione para gestionar un caso existente <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> y seleccione una de las opciones disponibles:</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Cerrar caso*: Proporciona detalles sobre por qué estás cerrando el caso y selecciona *Cerrar caso*.</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">En la parte superior derecha de la consola de BlueXP, seleccione el icono Configuración y seleccione *credenciales*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Seleccione *Credenciales de usuario*.</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Para confirmar que el proceso de registro se ha realizado correctamente, seleccione el icono Ayuda y seleccione *Soporte*.</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">En la parte superior derecha de la consola de BlueXP, seleccione el icono Ayuda y seleccione *Soporte*.</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Seleccione *Administración de NSS &gt; Agregar cuenta de NSS*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Cuando se le solicite, seleccione *continuar* para que se le redirija a una página de inicio de sesión de Microsoft.</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -10,6 +10,7 @@ summary: 'NetApp ofrece soporte para BlueXP de diversas maneras. Hay disponibles
 :imagesdir: ../media/
 
 
+[role="lead"]
 NetApp ofrece soporte para BlueXP y sus servicios cloud de diversas maneras. Hay disponibles amplias opciones de auto soporte gratuito las 24 horas del día, los 7 días de la semana, como artículos de la base de conocimiento (KB) y un foro de la comunidad. Su registro de soporte incluye soporte técnico remoto a través de tickets web.
 
 
@@ -48,11 +49,11 @@ Además de las opciones de autosoporte anteriores, puede trabajar con un especia
 
 
 .Pasos
-. En BlueXP, haga clic en *Ayuda > Soporte*.
+. En BlueXP, selecciona *Ayuda > Soporte*.
 . En la página *Recursos*, elija una de las opciones disponibles en Soporte técnico:
 +
-.. Haga clic en *Llame a nosotros* si desea hablar con alguien en el teléfono. Se le dirigirá a una página de netapp.com que enumera los números de teléfono a los que puede llamar.
-.. Haga clic en *Crear un caso* para abrir una incidencia con un especialista en soporte de NetApp:
+.. Selecciona *Llámanos* si quieres hablar con alguien por teléfono. Se le dirigirá a una página de netapp.com que enumera los números de teléfono a los que puede llamar.
+.. Selecciona *Crear un caso* para abrir un ticket con un especialista en Soporte NetApp:
 +
 *** *Servicio*: Seleccione el servicio con el que está asociado el problema. Por ejemplo, cuando BlueXP es específico de un problema de soporte técnico con flujos de trabajo o funcionalidades dentro del servicio.
 *** *Entorno de trabajo*: Si se aplica al almacenamiento, seleccione *Cloud Volumes ONTAP* o *On-Prem* y, a continuación, el entorno de trabajo asociado.
@@ -81,7 +82,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 .Después de terminar
 Aparecerá una ventana emergente con el número de caso de soporte. Un especialista de soporte de NetApp revisará su caso y le pondrá en contacto con usted próximamente.
 
-Para obtener un historial de sus casos de soporte, puede hacer clic en *Configuración > línea de tiempo* y buscar acciones denominadas "Crear caso de soporte". Un botón situado en el extremo derecho le permite ampliar la acción para ver los detalles.
+Para obtener un historial de sus casos de soporte, puede seleccionar *Ajustes > Línea de tiempo* y buscar acciones denominadas “Crear caso de soporte”. Un botón situado en el extremo derecho le permite ampliar la acción para ver los detalles.
 
 Es posible que se encuentre el siguiente mensaje de error al intentar crear un caso:
 
@@ -120,14 +121,14 @@ Consulte los pasos a continuación para obtener más información.
 
 
 .Pasos
-. En BlueXP, haga clic en *Ayuda > Soporte*.
-. Haga clic en *Administración de casos* y si se le solicita, agregue su cuenta NSS a BlueXP.
+. En BlueXP, selecciona *Ayuda > Soporte*.
+. Selecciona *Gestión de casos* y, si se te solicita, agrega tu cuenta de NSS a BlueXP.
 +
 La página *Administración de casos* muestra casos abiertos relacionados con la cuenta NSS asociada con su cuenta de usuario de BlueXP. Esta es la misma cuenta NSS que aparece en la parte superior de la página *NSS Management*.
 
 . Si lo desea, puede modificar la información que se muestra en la tabla:
 +
-** En *casos de la organización*, haga clic en *Ver* para ver todos los casos asociados con su empresa.
+** En *Casos de la organización*, selecciona *Ver* para ver todos los casos asociados a tu empresa.
 ** Modifique el rango de fechas eligiendo un rango de fechas exacto o eligiendo un marco de tiempo diferente.
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-date-range.png["Captura de pantalla de la opción situada encima de la tabla en la página de gestión de casos que permite elegir un intervalo de fechas exacto o los últimos 7 días, 30 días o 3 meses."]
@@ -136,20 +137,20 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-filter.png["Captura de pantalla de la opción de filtro de la columna Estado que permite filtrar casos que coinciden con un estado específico, como activo o cerrado."]
 
-** Cambie las columnas que aparecen en la tabla haciendo clic en image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png["El icono más que se muestra en la tabla"] y, a continuación, seleccione las columnas que desea mostrar.
+** Seleccione para cambiar las columnas que aparecen en la tabla image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png["El icono más que se muestra en la tabla"] y, a continuación, seleccione las columnas que desea mostrar.
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-columns.png["Captura de pantalla que muestra las columnas que puede mostrar en la tabla."]
 
 
 
-. Gestione un caso existente haciendo clic en image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png["Icono con tres puntos que aparece en la última columna de la tabla"] y seleccione una de las opciones disponibles:
+. Seleccione para gestionar un caso existente image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png["Icono con tres puntos que aparece en la última columna de la tabla"] y seleccione una de las opciones disponibles:
 +
 ** *Ver caso*: Ver todos los detalles sobre un caso específico.
 ** *Actualizar notas de caso*: Proporcione detalles adicionales sobre su problema o seleccione *cargar archivos* para adjuntar hasta un máximo de cinco archivos.
 +
 Los archivos adjuntos están limitados a 25 MB por archivo. Se admiten las siguientes extensiones de archivo: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx y csv.
 
-** *Cerrar caso*: Proporcione detalles sobre por qué cierra el caso y haga clic en *Cerrar caso*.
+** *Cerrar caso*: Proporciona detalles sobre por qué estás cerrando el caso y selecciona *Cerrar caso*.
 
 
 +
