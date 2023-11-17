@@ -26,7 +26,7 @@ Al registrarse para recibir soporte, no se habilita el soporte de NetApp para un
 
 Existen dos formas de registro para activar el derecho de asistencia:
 
-* Registro de la suscripción al soporte de ID de cuenta de BlueXP (número de serie de 20 dígitos xxxx960xxxxx que se encuentra en la página Recursos de asistencia técnica de BlueXP).
+* Registro del número de serie de su cuenta de BlueXP  (número de serie 960xxxxxxxxx de 20 dígitos que se encuentra en la página de recursos de soporte de BlueXP ).
 +
 Esto sirve como su ID de suscripción de soporte único para cualquier servicio dentro de BlueXP. Debe registrarse cada suscripción de asistencia técnica a nivel de cuenta de BlueXP.
 
@@ -40,9 +40,9 @@ El registro de ambos tipos de números de serie permite funcionalidades, como ab
 
 
 
-== Registra tu cuenta de BlueXP para recibir soporte de NetApp
+== Registre BlueXP  para obtener soporte de NetApp
 
-Para registrarte para obtener soporte y activar el soporte, un usuario de tu cuenta de BlueXP debe asociar una cuenta en el sitio de soporte de NetApp a su inicio de sesión en BlueXP. La forma de registrarse para recibir soporte de NetApp depende de si ya tiene una cuenta del sitio de soporte de NetApp (NSS).
+Para registrarse para obtener soporte y activar los derechos de soporte, un usuario de su organización (o cuenta) de BlueXP  debe asociar una cuenta en el sitio de soporte de NetApp a su inicio de sesión en BlueXP . La forma de registrarse para recibir soporte de NetApp depende de si ya tiene una cuenta del sitio de soporte de NetApp (NSS).
 
 
 
@@ -56,13 +56,13 @@ Si es cliente de NetApp con una cuenta de NSS, solo tiene que registrarse para r
 . Seleccione *Agregar credenciales NSS* y siga el aviso de autenticación del sitio de soporte de NetApp (NSS).
 . Para confirmar que el proceso de registro se ha realizado correctamente, seleccione el icono Ayuda y seleccione *Soporte*.
 +
-La página *Recursos* debe mostrar que su cuenta está registrada para soporte.
+La página *Recursos* debe mostrar que su organización de BlueXP  está registrada para soporte.
 
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-support-registration.png["Una captura de pantalla que muestra un número de serie de cuenta y una casilla de verificación verde y el texto registrado para soporte."]
 
 +
-Tenga en cuenta que los otros usuarios de BlueXP no verán este mismo estado de registro de soporte si no han asociado una cuenta del sitio de soporte de NetApp con su inicio de sesión de BlueXP. Sin embargo, eso no significa que tu cuenta de BlueXP no esté registrada para el soporte técnico. Siempre y cuando un usuario de la cuenta haya seguido estos pasos, su cuenta se ha registrado.
+Tenga en cuenta que los otros usuarios de BlueXP no verán este mismo estado de registro de soporte si no han asociado una cuenta del sitio de soporte de NetApp con su inicio de sesión de BlueXP. Sin embargo, eso no significa que su organización de BlueXP  no esté registrada para el soporte. Siempre y cuando un usuario de la organización haya seguido estos pasos, su organización se ha registrado.
 
 
 
@@ -111,7 +111,7 @@ Confirmar envía su solicitud a NetApp y recomienda que cree una cuenta en la p�
 . Complete el para crear una cuenta en la página de soporte de NetApp https://mysupport.netapp.com/site/user/registration["Formulario de registro de usuarios del sitio de soporte de NetApp"^]
 +
 .. Asegúrese de seleccionar el nivel de usuario adecuado, que normalmente es *Cliente/Usuario final de NetApp*.
-.. Asegúrese de copiar el número de serie de la cuenta (960xxxx) utilizado anteriormente para el campo de número de serie. Esto agilizará el procesamiento de la cuenta.
+.. Asegúrese de copiar el número de serie de la cuenta (960xxxx) utilizado anteriormente para el campo de número de serie. Esto acelerará el procesamiento.
 
 
 
@@ -125,7 +125,7 @@ Cuando tengas tu cuenta en el sitio de soporte de NetApp, asocia la cuenta con e
 
 == Asocie credenciales de NSS para soporte de Cloud Volumes ONTAP
 
-Es necesario asociar las credenciales del sitio de soporte de NetApp con su cuenta de BlueXP para habilitar los siguientes flujos de trabajo clave para Cloud Volumes ONTAP:
+Es necesario asociar las credenciales del sitio de soporte de NetApp con su organización de BlueXP  para habilitar los siguientes flujos de trabajo clave para Cloud Volumes ONTAP:
 
 * Registro de sistemas Cloud Volumes ONTAP de pago por uso para recibir soporte
 +
@@ -138,9 +138,9 @@ Es necesario proporcionar su cuenta NSS para que BlueXP pueda cargar su clave de
 * Actualizar el software Cloud Volumes ONTAP a la versión más reciente
 
 
-La asociación de credenciales de NSS con su cuenta de BlueXP es diferente de la cuenta de NSS asociada con un inicio de sesión de usuario de BlueXP.
+La asociación de credenciales de NSS a la organización de BlueXP  es diferente de la cuenta de NSS asociada con un inicio de sesión de usuario de BlueXP .
 
-Estas credenciales de NSS están asociadas con tu ID de cuenta de BlueXP específico. Los usuarios que pertenecen a la cuenta BlueXP pueden acceder a estas credenciales desde *Soporte > Gestión NSS*.
+Estas credenciales de NSS están asociadas con su ID de organización de BlueXP  específico. Los usuarios que pertenecen a la organización BlueXP  pueden acceder a estas credenciales desde *Soporte > Administración de NSS*.
 
 * Si tiene una cuenta de nivel de cliente, puede añadir una o varias cuentas de NSS.
 * Si tiene una cuenta de partner o distribuidor, puede añadir una o varias cuentas de NSS, pero no se podrán añadir junto con las cuentas de nivel de cliente.

@@ -67,7 +67,7 @@ Además de las opciones de autosoporte anteriores, puede trabajar con un especia
 *** *Servicio*: Seleccione el servicio con el que está asociado el problema. Por ejemplo, cuando BlueXP es específico de un problema de soporte técnico con flujos de trabajo o funcionalidades dentro del servicio.
 *** *Entorno de trabajo*: Si se aplica al almacenamiento, seleccione *Cloud Volumes ONTAP* o *On-Prem* y, a continuación, el entorno de trabajo asociado.
 +
-La lista de entornos de trabajo se encuentra dentro del ámbito de la cuenta BlueXP, el área de trabajo y el conector que ha seleccionado en el banner superior del servicio.
+La lista de entornos de trabajo está dentro del ámbito de la organización (o cuenta) de BlueXP , el proyecto (o el espacio de trabajo) y el conector que ha seleccionado en el banner superior del servicio.
 
 *** *Prioridad de caso*: Elija la prioridad para el caso, que puede ser Baja, Media, Alta o crítica.
 +
