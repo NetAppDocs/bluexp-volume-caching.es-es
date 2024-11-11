@@ -12,13 +12,13 @@ summary: El almacenamiento en caché de volúmenes proporciona un volumen persis
 
 
 [role="lead"]
-Puede editar una caché, cambiar la política de exportación, cambiar el tamaño de una caché y suprimir una caché.
+Se puede editar una caché de volumen, cambiar la política de exportación, cambiar el tamaño de una caché y eliminar una caché.
 
 Con el almacenamiento en caché de volúmenes de BlueXP, puedes lograr estos objetivos:
 
 * Ver detalles de caché.
 * Asigne una política de exportación diferente a una caché.
-* Edite el almacenamiento en caché de un volumen y cambie su tamaño, etc. Editar tendrá la opción de ver y cambiar otras propiedades, y se agregarán más propiedades en edición en las próximas versiones.
+* Edite una caché de volumen y cambie atributos como su tamaño.
 * Cambie el tamaño de una caché existente en función de un porcentaje del tamaño del volumen original.
 * Suprimir una caché.
 
@@ -57,7 +57,7 @@ Es posible cambiar el nombre, el tamaño del volumen y la política de exportaci
 .. Una política de exportación diferente de la existente.
 
 
-. Para cambiar los detalles de los recursos compartidos SMB/CIFS o las reglas de las políticas de exportación, haga clic en la opción para acceder a BlueXP System Manager.
+. Para cambiar los detalles de los recursos compartidos SMB/CIFS o las reglas de la directiva de exportación, haga clic en la opción para acceder a ONTAP System Manager.
 . Seleccione *Guardar*.
 
 
@@ -70,7 +70,7 @@ Puede asignar una política de exportación diferente a una caché.
 Las reglas de política de exportación de origen deben aplicarse al clúster de destino.
 
 
-TIP: Puede asignar una política de exportación existente a una caché. No se pueden cambiar las reglas de las políticas de exportación. Si necesita cambiar las políticas de exportación, puede usar NetApp System Manager.
+TIP: Puede asignar una política de exportación existente a una caché. No se pueden cambiar las reglas de las políticas de exportación. Si necesita cambiar las políticas de exportación, puede usar ONTAP System Manager.
 
 .Pasos
 . En la navegación de la izquierda de BlueXP, selecciona *Mobility* > *Volume caching*.
@@ -92,7 +92,7 @@ Es posible cambiar el tamaño del volumen de caché según un porcentaje del vol
 . Selecciona *Cambiar tamaño*.
 . Introduzca un nuevo porcentaje del tamaño del volumen de origen.
 +
-El tamaño del volumen de caché cambiará al nuevo porcentaje.
+El volumen de caché cambia el tamaño en el nuevo porcentaje.
 
 . Seleccione *Guardar*.
 

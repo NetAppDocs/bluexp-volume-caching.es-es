@@ -34,9 +34,9 @@ El almacenamiento en caché de volúmenes de BlueXP ofrece las siguientes ventaj
 * Elimine silos de cloud almacenando los datos en caché de un proveedor de cloud a otro
 * Menor gasto en almacenamiento
 * Colabore en distintas ubicaciones geográficas
-* Uso de un servicio gestionado por NetApp en BlueXP
-* Capacidad de adaptarse con mayor rapidez a los entornos TECNOLÓGICOS cambiantes
-* Almacenamiento en caché de volúmenes bajo demanda o basado en suscripciones alojado en la nube
+* Utilice un servicio gestionado por NetApp en BlueXP 
+* Adáptese a los cambios en los entornos TECNOLÓGICOS con mayor rapidez
+* Utilice el almacenamiento en caché de volúmenes bajo demanda o basado en suscripciones alojado en el cloud
 
 
 
@@ -45,12 +45,10 @@ El almacenamiento en caché de volúmenes de BlueXP ofrece las siguientes ventaj
 
 El almacenamiento en caché de volúmenes de BlueXP te ofrece un uso completo de varias tecnologías de NetApp para lograr los siguientes objetivos:
 
-El servicio de almacenamiento en caché de volúmenes de BlueXP te ofrece un uso completo de diversas tecnologías de NetApp para lograr los siguientes objetivos:
-
-* Almacene en caché los datos de un proveedor de cloud a otro
-* Ver y editar una política de exportación de caché
-* Cambiar el tamaño de una caché existente
-* Suprimir una caché
+* Almacene en caché los datos de un proveedor de cloud a otro.
+* Ver y editar una política de exportación de caché.
+* Cambiar el tamaño de una caché existente.
+* Suprimir una caché.
 
 
 

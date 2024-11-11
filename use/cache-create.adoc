@@ -12,7 +12,7 @@ summary: El almacenamiento en caché de volúmenes proporciona un volumen persis
 
 
 [role="lead"]
-Puedes crear un almacenamiento en caché de volúmenes entre Amazon FSx para ONTAP, Cloud Volumes ONTAP y ONTAP on-premises con uno o varios volúmenes de origen del entorno de trabajo de origen como origen de caché. A continuación, se selecciona la máquina virtual de almacenamiento para los volúmenes de caché.
+Puedes crear una caché de volúmenes entre Amazon FSx para ONTAP, Cloud Volumes ONTAP y ONTAP on-premises con uno o varios volúmenes de origen del entorno de trabajo de origen como origen de caché. A continuación, se selecciona la máquina virtual de almacenamiento para los volúmenes de caché.
 
 El volumen de caché puede estar en el mismo clúster o en un clúster diferente al del volumen de origen. Los volúmenes que seleccione para caché deben pertenecer a la misma máquina virtual de almacenamiento y las máquinas virtuales de almacenamiento deben usar los mismos protocolos.
 
